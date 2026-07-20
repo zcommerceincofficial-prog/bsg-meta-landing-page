@@ -13,7 +13,7 @@ Brand tokens pulled directly from bsgwraps.com's live CSS: `--blue: #1b99d4`, `-
 - [ ] **Gallery flagship photo** — `assets/gallery-01.webp` is currently the blue Porsche art from bsgwraps.com, honestly labeled "Color Change Concept." This slot should really be the actual photos on display at the Cadillac dealership — that's BSG's strongest proof point and it isn't published anywhere online, so it has to come from Skip directly.
 - [ ] **Gallery photos 2–5** — `assets/gallery-02.webp` through `gallery-05.webp` are still placeholders. BSG's existing site photography is fleet-graphics work (a different client/service), not color-change wraps, so it wasn't reused here — would misrepresent the service.
 - [ ] **Reviews** — 4 placeholder review cards in the Reviews section are marked `[Paste a real 5-star Google review here]`. Do not fabricate; pull real ones from BSG's Google Business Profile
-- [ ] **Lead form endpoint** — `LEAD_WEBHOOK_URL` in `index.html`'s script is blank. Point it at BSG's CRM/GHL webhook (or whatever intake BSG uses) before launch
+- [x] **Lead form endpoint** — `LEAD_WEBHOOK_URL` wired to BSG's GHL webhook
 - [ ] **OG image** — `assets/og-image.png` (1200×630) for social previews
 - [ ] **Tracking IDs** — GA4 / Meta Pixel / Microsoft Clarity snippets are commented out at the bottom of `index.html`, ready to uncomment once IDs are issued
 - [ ] **Canonical URL** — currently placeholder `https://www.bsgwraps.com/color-change/`; confirm final path or subdomain before launch and update `<link rel="canonical">`, OG tags, schema `url`, `robots.txt`, and `sitemap.xml` to match
